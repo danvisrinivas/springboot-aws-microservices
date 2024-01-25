@@ -1,0 +1,15 @@
+server:
+  port: 6062
+spring:
+  cloud:
+    aws:
+      credentials:
+        access-key: AKIAZI2LEWUPSMJ6RNNS
+        secret-key: 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
+      region:
+        static: ap-south-1
+      s3:
+        region: ap-south-1
+      dynamodb:
+        endpoint: http://dynamodb.ap-south-1.amazonaws.com
+        region: ap-south-1
